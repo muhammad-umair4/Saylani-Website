@@ -117,7 +117,6 @@
     background-color: #a8ca79;
 }
 .cover{
-    /* border: 2px solid red; */
     width: 69%;
     display: flex;
     justify-content: space-between;
@@ -161,7 +160,6 @@
     color: white;
 }
 .web-body{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -249,7 +247,6 @@
     object-fit: cover;
 }
 .foot-top{
-    /* border:2px solid red; */
     position: relative;
     margin: auto;
     bottom:495px;
@@ -271,4 +268,94 @@
     width:38px;
     height:38px;
     border-radius: 5px;
+}
+.about{
+    width:160px;
+    height:240px;
+    position: relative;
+    left:433px;
+    bottom:167px;
+    display:flex;
+    flex-direction: column;
+    line-height:40px;
+}
+.about h3{
+    font-size:22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.about a{
+    color: #ffffff;
+    font-size:14px;
+    text-decoration: none;
+}
+.explore{
+    width:80px;
+    height:200px;
+    position: relative;
+    left:655px;
+    bottom:409px;
+    display:flex;
+    flex-direction: column;
+    line-height:40px;
+}
+.explore a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.explore h3{
+    font-size:22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contect{
+    width:300px;
+    height:200px;
+    position: relative;
+    left:874px;
+    bottom:288%;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.contect p{
+    font-size: 12px;
+}
+.approved{
+    position: relative;
+    bottom: 580px;
+    margin: auto;
+    width: 200px;
+    height:123px;
+    z-index: 2;
+}
+.approved img{
+    width:200px;
+    height:123px;
+}
+.ip-address{
+    position: relative;
+    bottom:568px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size:14px;
+    line-height: 75px;
+    border-top: 1px solid#928b8b;
+    border-bottom:1px solid #928b8b;
+}
+.ip-address a{
+    text-decoration: none;
+    color: #3484c2;
+}
+.copyright{
+    position: relative;
+    bottom:550px;
+    display: flex;
+    justify-content: center;
+    font-size:14px;
+    color: #ffffff;
 }
